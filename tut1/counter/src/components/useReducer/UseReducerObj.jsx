@@ -10,7 +10,7 @@ const reducer = (state, action) => {
     case "decrement":
       return { FirstCountValue: state.FirstCountValue - action.changeby };
     case "reset":
-      return { FirstCountValue: state.FirstCountValue };
+      return { FirstCountValue: intialState.FirstCountValue };
     default:
       return { intialState };
   }
