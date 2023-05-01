@@ -1,0 +1,16 @@
+p{
+    background-color: burlywood;
+}
+.container{
+    background-color: rgb(120, 120, 245);
+   border: 2px solid red;
+   border-radius: 15px ;
+   width: 40%;
+   margin: auto;
+}
+.descriptionTitle{
+    color: red;
+    font-size: 2rem;
+    font-family: monospace;
+    
+}

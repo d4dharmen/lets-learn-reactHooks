@@ -1,0 +1,33 @@
+.buttons{
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(rgb(250, 169, 92), rgb(54, 24, 3));
+}
+
+.buttons button{
+    width: 50%;
+border: 2px solid black;
+background-image: linear-gradient(orange, yellow);
+margin: 5px 20px;
+box-shadow: 2px 2px 2px;
+font-size: 2rem;
+}
+.buttons button:hover{
+    
+    background-color: rgb(145, 135, 135);
+    color: white;
+}
+h2{
+    background-color: gray;
+    padding: 5px 30px;
+    border-radius: 5px;
+    color: white;
+}
+.counter{
+    background-image: radial-gradient(red, blue);
+    padding: 2px 30px;
+    border-radius: 40%;
+    color: yellow;
+}

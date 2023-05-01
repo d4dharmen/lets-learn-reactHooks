@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+  background-color: rgb(21, 28, 43);
+}
+.mainContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.content{
+  margin: 10px;
+}
